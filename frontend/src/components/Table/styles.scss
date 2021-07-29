@@ -1,0 +1,129 @@
+.contentContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 500px;
+  flex-wrap: nowrap;
+  gap: 4px;
+
+  .inputUpdateContainer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 32px;
+    gap: 16px;
+    flex: 1;
+
+    input {
+      margin: 8px;
+      width: 100%;
+    }
+  }
+}
+
+.inputContainer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex: 1;
+  flex-wrap: wrap;
+
+  input {
+    margin: 8px;
+    width: 100%;
+  }
+}
+
+.buttonContainer {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+
+  button {
+    width: 30%;
+  }
+  button:nth-child(even) {
+    width: 15%;
+  }
+}
+
+.tableContainer {
+  width: 90%;
+  height: 100px;
+  display: block;
+  margin: 32px auto;
+  flex: 2;
+
+  table {
+    width: 100%;
+
+    th {
+      text-align: center;
+    }
+
+    td {
+      text-align: center;
+      border: 1px solid black;
+    }
+    td:nth-child(even) {
+      width: 20%;
+    }
+
+    td:nth-child(3) {
+      width: 20%;
+    }
+
+    td:nth-child(5) {
+      width: 20%;
+    }
+
+    tr {
+      width: 90%;
+      height: 100%;
+      text-align: left;
+    }
+
+    .btnContainer {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 16px;
+      margin: auto 8px;
+
+      .btnEdit {
+        width: 24%;
+        margin: 4px;
+      }
+
+      .btnDelete {
+        width: 24%;
+        margin: 4px;
+      }
+    }
+  }
+}
+
+.buttonUpdateContainer {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+
+  button :nth-last-child(even) {
+    width: 50%;
+  }
+  button:nth-child(odd) {
+    width: 25%;
+  }
+}
